@@ -2,7 +2,7 @@ theme: slate # Don't change this.
 markdown: kramdown
 title: This is the title.
 description: Put a description here.
-baseurl: "" # set this to the part in capitals (BASEURL in http://www.example.com/BASEURL/post1)
+baseurl: custom-gitpages-theme # set this to the part in capitals (BASEURL in http://www.example.com/BASEURL/post1)
 permalink: /:year/:month/:day/:title:output_ext
 gist:
   noscript: false
