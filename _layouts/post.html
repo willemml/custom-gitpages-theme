@@ -12,6 +12,6 @@ layout: default
 {{ content }}
 <div class="PageNavigation">
   {% if page.previous.url %}
-  <a class="prev" href="{{page.previous.url}}">&laquo; Previous Post</a> {% endif %} {% if page.next.url %}
-  <a class="next" href="{{page.next.url}}">Next Post &raquo;</a> {% endif %}
+  <a class="prev" href="{{ site.url }}{{ site.baseurl }}{{page.previous.url}}">&laquo; Previous Post</a> {% endif %} {% if page.next.url %}
+  <a class="next" href="{{ site.url }}{{ site.baseurl }}{{page.next.url}}">Next Post &raquo;</a> {% endif %}
 </div>
