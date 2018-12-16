@@ -1,6 +1,6 @@
 markdown: kramdown
-title: Example blog.
-description: This example blog demonstrates this custom theme.
+title: Sample blog.
+description: This sample blog demonstrates this custom theme, designed by @nadinejl and produced by @wnuke.
 baseurl: /custom-gitpages-theme # set this to the part in capitals (/BASEURL in http://www.example.com/BASEURL/post1)
 permalink: /:year/:month/:day/:title:output_ext
 gist:
