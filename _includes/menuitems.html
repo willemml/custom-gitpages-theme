@@ -1,0 +1,6 @@
+<a class="menu" href="/">Home</a>&nbsp;&nbsp;
+{% for mainpage in site.mainpages %}
+  <a href="{{ mainpage.url }}">{{ mainpage.title }}</a>&nbsp;&nbsp;
+{% endfor %}
+
+<!--a class="menu" href="/">Home</a>&nbsp;&nbsp;<a class="menu" href="/about">About</a>&nbsp;&nbsp;<a class="menu" href="/categories">Categories</a-->

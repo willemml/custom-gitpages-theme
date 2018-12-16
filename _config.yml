@@ -1,0 +1,22 @@
+theme: slate # Don't change this.
+markdown: kramdown
+title: This is the title.
+description: Put a description here.
+permalink: /:year/:month/:day/:title:output_ext
+gist:
+  noscript: false
+collections:
+  mainpages:
+    output: true
+  category:
+    output: true
+js_dir: "/assets/js"
+defaults:
+  -
+    values:
+      author: "YOURNAME" # Replace this by your author name.
+      author-github-url: "YOURGITURL" # Replace this url with your github url.
+plugins:
+  - jekyll-feed
+analytics-url: "" # your google analytics URL
+analytics-id: "" # your google analytics id

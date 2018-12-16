@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<h3>{{ page.title }}</h3>
+<h6><span>By <a href="{{ page.author-github-url }}">{{ page.author }}</a> {% include date.html %}</span></h6>
+<div class="tags">
+  {% assign sortedCategories = page.categories | sort %} {% for category in sortedCategories %}
+  <span class="tag">
+    <a href="/category/{{ category }}">#{{ category }}</a>
+  </span> {% endfor %}
+</div>
+{{ content }}
+<div class="PageNavigation">
+  {% if page.previous.url %}
+  <a class="prev" href="{{page.previous.url}}">&laquo; Previous Post</a> {% endif %} {% if page.next.url %}
+  <a class="next" href="{{page.next.url}}">Next Post &raquo;</a> {% endif %}
+</div>
