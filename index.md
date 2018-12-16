@@ -7,5 +7,5 @@
 This page also displays the latest post:
 
 {% for post in site.posts limit:1 %}
-  <a class="post-title" href="{{ post.url }}">Latest post</a>
+  <a class="post-title" href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">Latest post</a>
 {% endfor %}
