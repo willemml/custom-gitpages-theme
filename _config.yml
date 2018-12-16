@@ -1,4 +1,3 @@
-theme: slate # Don't change this.
 markdown: kramdown
 title: Example blog.
 description: This example blog demonstrates this custom theme.

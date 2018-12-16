@@ -4,3 +4,4 @@ _site
 vendor
 .git
 .bundle
+.DS_Store
