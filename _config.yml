@@ -1,7 +1,7 @@
 theme: slate # Don't change this.
 markdown: kramdown
-title: This is the title.
-description: Put a description here.
+title: Example blog.
+description: This example blog demonstrates this custom theme.
 baseurl: /custom-gitpages-theme # set this to the part in capitals (/BASEURL in http://www.example.com/BASEURL/post1)
 permalink: /:year/:month/:day/:title:output_ext
 gist:
@@ -15,8 +15,8 @@ js_dir: "/assets/js"
 defaults:
   -
     values:
-      author: "YOURNAME" # Replace this by your author name.
-      author-github-url: "YOURGITURL" # Replace this url with your github url.
+      author: "wnuke" # Replace this by your author name.
+      author-github-url: "https://github.com/wnuke/" # Replace this url with your github url.
 plugins:
   - jekyll-feed
 analytics-url: "" # your google analytics URL

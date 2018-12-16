@@ -6,7 +6,7 @@ layout: default
 <div class="tags">
   {% assign sortedCategories = page.categories | sort %} {% for category in sortedCategories %}
   <span class="tag">
-    <a href="/category/{{ category }}">#{{ category }}</a>
+    <a href="{{ site.url }}{{ site.baseurl }}/category/{{ category }}">#{{ category }}</a>
   </span> {% endfor %}
 </div>
 {{ content }}
