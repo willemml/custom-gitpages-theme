@@ -1,22 +1,23 @@
+# do not change anything in a line that is followed by two hashtags (##) unless you know what you are doing
 markdown: kramdown
-title: Sample blog.
-description: This sample blog demonstrates this custom theme, designed by @nadinejl and produced by @wnuke.
+title: Sample blog. # this will be the title of the blog
+description: This sample blog demonstrates this custom theme, designed by @nadinejl and produced by @wnuke. # this will be the description or "subtitle" of the blog
 baseurl: /custom-gitpages-theme # set this to the part in capitals (/BASEURL in http://www.example.com/BASEURL/post1)
-permalink: /:year/:month/:day/:title:output_ext
-gist:
-  noscript: false
-collections:
-  mainpages:
-    output: true
-  category:
-    output: true
-js_dir: "/assets/js"
-defaults:
-  -
-    values:
+permalink: /:year/:month/:day/:title:output_ext ## # this will determine the format of every post's permalink, I recommend that you do not change this.
+gist: ##
+  noscript: false ##
+collections: ##
+  mainpages: ##
+    output: true ##
+  category: ##
+    output: true ##
+js_dir: "/assets/js" ##
+defaults: ##
+  - ##
+    values: ##
       author: "wnuke" # Replace this by your author name.
       author-github-url: "https://github.com/wnuke/" # Replace this url with your github url.
-plugins:
-  - jekyll-feed
+plugins: ##
+  - jekyll-feed ##
 analytics-url: "" # your google analytics URL
 analytics-id: "" # your google analytics id
