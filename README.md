@@ -1,21 +1,21 @@
 # This is a custom version of the Slate GitHub pages theme.
 
-### Setup
+## Setup
 
-**NOTE:** you can change the color of all links on the blog by editing the 2nd line of `/assets/css/style.css`
+**NOTE 1:** you can change the color of all links on the blog by editing the 2nd line of `/assets/css/style.css`
 
 **NOTE 2:** to add an image to a markdown page on your blog enter the following text `![this-is-an-image]({{ site.url }}{{ site.baseurl }}/assets/images/example-image.png)` replacing example-image.png with your image's filename and put the image files in `/assets/images/`
 
 **NOTE 3:** this guide assumes that you have basic git knowledge.
 
-##### Setup your blog using GitHub Pages:
+### Setup your blog using GitHub Pages:
 
 1. Fork [this](https://github.com/wnuke/custom-gitpages-theme) GitHub repository
 2. Edit _config.yml to your needs, make sure that baseurl is set correctly to your needs or leave it blank if you forked the repository to a repository named YOURGITUSER.github.io
 3. Enable GitHub Pages in your repository settings
 4. Congratulations, if you have set this up right then you should see your website at https://YOURGITUSER.github.io/BASEURL (BASEURL is what you set in _config.yml)
 
-##### Setup your blog outside of GitHub pages:
+### Setup your blog outside of GitHub pages:
 
 **Requirements:**
 
